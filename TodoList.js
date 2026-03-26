@@ -34,6 +34,7 @@ export class ToDoList {
         return maxId + 1 // +1 to make new id 
     }
 
+
     // Add task
     addTask(title) {
         const id = this.getNextId() // get id for new task
