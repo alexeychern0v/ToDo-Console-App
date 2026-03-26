@@ -42,7 +42,7 @@ switch (command) {
         }
         console.log(' 📋​---- Tasks to do: ----📋​ ')
         tasks.forEach((task) => {
-            const status = task.completed ? 'completed' : 'pending'
+            const status = task.completed ? '✅ completed' : '⏳ pending'
             console.log(`${task.id}. ${task.title} - ${status}`)
         })
         break
